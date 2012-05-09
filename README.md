@@ -21,7 +21,7 @@ Example:
 
 Results:
 
-	<div id="justify1" style="width:300px;text-align:center">
+	<div id="justify" style="width:300px;text-align:center">
 		<span id="lj-line1" class="l-justified" style="text-align: justify; font-size: 22px; font-family: 'Times New Roman'; letter-spacing: 1px; width: 283px; ">an example of jQuery Plugin<br></span>
 		<span id="lj-line2" class="l-justified" style="text-align: justify; font-size: 54px; font-family: Arial; letter-spacing: 5px; width: 292px; ">lineJustify<br></span>
 		<span id="lj-line3" class="l-justified" style="text-align: justify; font-size: 27px; font-family: 'Times New Roman'; letter-spacing: 3px; width: 300px; ">adjusting font size to<br></span>
