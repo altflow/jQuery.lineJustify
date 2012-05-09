@@ -64,20 +64,20 @@
 			assertEquals("justify", textAlign2);
 		},
 		
-		"test should set class name 'f-justified' for span tags": function(){
+		"test should set class name 'l-justified' for span tags": function(){
 			var object = $(this.element).lineJustify();
 			
 			var children = object.children();
-			assertClassName("f-justified", children[0]);
-			assertClassName("f-justified", children[1]);
+			assertClassName("l-justified", children[0]);
+			assertClassName("l-justified", children[1]);
 		},
 		
-		"test should set id 'fj-lineX (X is line num) for span tags": function(){
+		"test should set id 'lj-lineX (X is line num) for span tags": function(){
 			var object = $(this.element).lineJustify();
 			
 			var children = object.children();
-			assertElementId("fj-line1", children[0]);
-			assertElementId("fj-line2", children[1]);
+			assertElementId("lj-line1", children[0]);
+			assertElementId("lj-line2", children[1]);
 		}
 	});
 	

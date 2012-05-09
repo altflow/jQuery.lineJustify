@@ -65,8 +65,8 @@
 			numOfStr = getLength(str);
 			
 			if(str.match(/[^\s]/)) {
-				var span = $("<span id='fj-line"+i+"'></span>")
-						   .addClass("f-justified")
+				var span = $("<span id='lj-line"+i+"'></span>")
+						   .addClass("l-justified")
 						   .css({
 								"text-align": "justify",
 								"font-size": Math.floor(width/numOfStr) + "px"
